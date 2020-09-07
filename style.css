@@ -3,6 +3,9 @@ body {
 	background-color: black;
 	color: white;
 	font-size: 16px;
+	max-width: 500px;
+	vertical-align: middle;
+	margin: auto;
 }
 
 .nick {
