@@ -27,20 +27,16 @@ body {
 	background-image: url('216867.jpg');
 	padding: 10px;
 	margin: 2px;
-	font-size: 20px;
+	font-size: 18px;
 	border-radius: 25px;
-	/*width: 200px;*/
+	width: 240px;
 }
 
 .column {
 	width: 30%;
+	left: 30em;
 }
 
-#banner {
-	position: fixed;
-	top:0px;
-	right:5em;
-}
 
 #skl, #course {
 	color: white;
@@ -68,7 +64,6 @@ body {
 	font-family: lucida console;
 	color: orange;
 }
- 
 
 #content {
 	color: orange;
