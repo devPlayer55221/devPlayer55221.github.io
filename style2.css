@@ -1,7 +1,7 @@
 body {
-	font-family: sans-serif;
-	font-size: 16px;
-	background-image: url('1159079.jpg');
+	font-family: quicksand;
+	font-size: 10px;
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/black/pure-black-background-f82588d3.jpg');
 	background-blend-mode: color-burn;
 	background-position: fill;
 	background-attachment: fixed;
@@ -12,10 +12,8 @@ body {
 	padding: 5px;
 	border: 2px solid grey;
 	border-style: dashed;
-	border-top-style: ridge;
 	border-bottom-style: none;
 	/*text-align: center;*/
-	border-radius: 25px;
 	margin: auto;
 	width: 200px;
 }
@@ -23,17 +21,17 @@ body {
 #skill, #places, #projects, #email, #coding, #certs {
 	/*align-items: center;*/
 	/*border: 2px solid black;*/
-	background-color: grey;
-	background-image: url('216867.jpg');
+	/*background-color: grey;
+	background-image: url('216867.jpg');*/
 	padding: 10px;
 	margin: 2px;
-	font-size: 18px;
-	border-radius: 25px;
-	width: 240px;
+	font-size: 11px;
+	/*border-radius: 25px;
+	width: 240px;*/
 }
 
 .column {
-	width: 30%;
+	width: 100%;
 	left: 30em;
 }
 
@@ -59,12 +57,21 @@ body {
 }*/
 
 #name1 {
-	font-size: 72px;
+	font-size: 24px;
 	font-weight: thick;
-	font-family: lucida console;
+	font-family: quicksand;
 	color: orange;
 }
 
 #content {
-	color: orange;
+	color: red;
+}
+
+.heading {
+	border: 2px solid grey;
+	border-style: dashed;
+	border-right-style: none;
+	border-top-style: none;
+	padding: 5px;
+	width: 300px;
 }
